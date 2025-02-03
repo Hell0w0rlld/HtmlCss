@@ -1,0 +1,33 @@
+  .move{
+        text-align: center;
+    }
+
+    #gray{
+
+    color: rgb(178, 169, 169);
+    font-weight: 800;
+    
+    }
+
+    .backgruond {
+        background-color: #dbeaf4;
+      }
+
+
+
+      .move2{
+        text-align: center;
+        color: rgb(139, 64, 41) ;
+        font-weight: bolder;
+    }
+    ol {
+        list-style-type: none; 
+        padding: 0;
+      }
+      
+      ol li::before {
+        content: "✔"; 
+        color: rgb(79, 79, 79); 
+        font-size: 16px;
+        margin-right: 8px; 
+      }
