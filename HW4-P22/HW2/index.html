@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sing up</title>
+  </head>
+  <body>
+    <h1>Sing Up in DBRG</h1>
+
+    <form>
+      <label> Participant Name</label>
+      <input type="text" placeholder="First" required />
+      <input type="text" placeholder="Last" required />
+      <br />
+      <br />
+      <label>Age</label>
+      <input type="number" min="0" required />
+      <br />
+      <br />
+
+      <label>Grade</label>
+      <br />
+      <select required>
+        <option value="" disabled selected>Please Select</option>
+        <option>beginner</option>
+        <option>average</option>
+        <option>professional</option>
+      </select>
+      <br />
+      <br />
+      <label>School District</label>
+      <input type="text" required />
+      <br />
+      <br />
+      <label>Shirt Siza </label>
+      <select required>
+        <option value="" disabled selected>Please Select</option>
+        <option>XS</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+        <option>XXL</option>
+      </select>
+      <br />
+      <br />
+      <label> Parent Name</label>
+      <input type="text" placeholder="First" required />
+      <input type="text" placeholder="Last" required />
+      <br />
+      <br />
+      <label>Emergency Contact</label>
+      <input
+        type="tel"
+        placeholder="917-363-5969"
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        maxlength="10"
+        minlength="10"
+        required
+      />
+      <br />
+      <br />
+      <label>Uploaad Your Photo</label>
+      <input type="file" accept=" .jpg, .jpeg, .png" required />
+      <br />
+      <br />
+      <input type="submit" />
+      <input type="reset" />
+    </form>
+  </body>
+</html>
